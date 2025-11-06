@@ -4,8 +4,8 @@ from email.message import EmailMessage
 # Create the email message
 msg = EmailMessage()
 msg['Subject'] = "Test Email from Python"
-msg['From'] = "maksistemasti@gmail.com"
-msg['To'] = "makrrc@gmail.com"
+msg['From'] = ""
+msg['To'] = ""
 msg.set_content("This is a test email sent using Python.")
 
 # Connect to the SMTP server
